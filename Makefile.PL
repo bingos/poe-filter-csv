@@ -1,0 +1,12 @@
+use inc::Module::Install;
+name 'POE-Filter-CSV';
+author 'Chris Williams <chris@bingosnet.co.uk>';
+license 'perl';
+version_from 'lib/POE/Filter/CSV.pm';
+abstract_from 'lib/POE/Filter/CSV.pm';
+build_requires 'Test::More' => 0.47;
+requires 'warnings::compat' => 0 if $] < 5.006;
+requires 'POE' => 0.38;
+requires 'POE::Filter' => 0;
+requires 'Text::CSV' => 1.00;
+WriteAll();
