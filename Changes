@@ -1,6 +1,9 @@
 POE::Filter::CSV
 ================
 
+1.16	Fri May 29 13:45:09 BST 2009
+	- Makefile.PL meta changes.
+
 1.14	Tue Jun 24 13:14:53 BST 2008
 	- Added LICENSE information.
 
